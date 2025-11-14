@@ -1,0 +1,132 @@
+/* =============================
+   DARK MODERN + CLEAN MINIMAL CSS
+   ============================= */
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f0f0f;  /* Dark modern background */
+    color: #e0e0e0;       /* Soft minimal text */
+    line-height: 1.6;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #1a1a1a;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid #333;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d1d1d1;
+    padding: 6px 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00eaff; 
+}
+
+
+section {
+    padding: 60px 40px;
+    border-bottom: 1px solid #222;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #00eaff;
+}
+
+p, li {
+    color: #cfcfcf;
+}
+
+
+.projects-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #00eaff;
+}
+
+.project-card a {
+    margin-top: 10px;
+    display: inline-block;
+    color: #00eaff;
+    text-decoration: none;
+}
+
+
+.contact-section a {
+    color: #00eaff;
+    text-decoration: none;
+}
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: #999;
+    background: #0c0c0c;
+}
+.photo-container{
+
+    text-align:center;
+    margin-top:20px;
+    height:100px;
+    width:100px;
+    box-shadow: inset 20px 20px;
+    box-shadow: #00eaff;
+
+}
+#Picture{
+    height:100px;
+    width:100px;
+
+    border:2px solid;
+
+    border-color: #00eaff;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    float:left;
+}
